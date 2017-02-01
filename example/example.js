@@ -29,6 +29,11 @@
       schools[i].ZIPCODE = normalized_zip;
     }
 
+    //INSTEAD var cleanData(school){
+  //  return school
+//  }
+//then call cleanData(school[i]) in the loop
+
     // Check out the use of typeof here — this was not a contrived example.
     // Someone actually messed up the data entry.
     if (typeof schools[i].GRADE_ORG === 'number') {
@@ -98,3 +103,6 @@
   }
 
 })();
+///bunch of functions that abstractely define how you work with the information.
+//end of file: var cleanData = cleanMyData();
+//mapMyData(cleanData)
