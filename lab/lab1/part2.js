@@ -97,4 +97,5 @@ Instructions: Let's bring it all together. Write a function that returns only od
 var filter = function(array, func) {
 };
 
-console.log('filter success:', filter([4, 11], isOdd) === [11]);
+var test2 = filter([4, 11], isOdd).length === 1 && filter([4, 11], isOdd)[0] === 11;
+console.log('filter success:', test2);
